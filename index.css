@@ -86,9 +86,8 @@ body {
 .inv-dark {
     filter: invert(1);
 }
-
-.contacte .icones {
-    filter: drop-shadow(0 0 0 gray);
+.dark .inv-dark-2 {
+    filter: invert(1);
 }
 
 
