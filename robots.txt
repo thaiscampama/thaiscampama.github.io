@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://thaiscampama.github.io/sitemap.xml
