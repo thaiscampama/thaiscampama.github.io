@@ -66,14 +66,49 @@ body {
     padding: 1.3rem 1.6rem;
     border-radius: 2rem;
 }
-.experiencies {}
-.experiencies .link-youtube {
-    display: flex;
-    align-items: center;
-    gap: 0.4rem;
+.experiencies {
+    .link-youtube {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+
+        img {
+            height: 1.1rem;
+        }
+    }
 }
-.experiencies .link-youtube img {
-    height: 1.1rem;
+
+.contacte {}
+
+.developed-by {
+    background-color: hsl(268, 100%, 23%);
+    text-align: center;
+    padding: 0.5rem;
+
+    a {
+        
+        letter-spacing: 0.6px;
+        animation: colorChange 20s linear infinite;
+
+        transition: letter-spacing 0.3s, transform 0.1s, border-radius 0.3s, color 0.3s;
+
+        &:hover {
+            letter-spacing: 1.6px;
+            text-decoration: none !important;
+        }
+    }
+
+    
+}
+@keyframes colorChange {
+    0%   { color: hsl(0,   100%, 90%); }
+    8%   { color: hsl(30,  100%, 90%); }
+    16%  { color: hsl(60,  100%, 90%); }
+    33%  { color: hsl(120, 100%, 90%); }
+    50%  { color: hsl(180, 100%, 90%); }
+    66%  { color: hsl(240, 100%, 90%); }
+    83%  { color: hsl(300, 100%, 90%); }
+    100% { color: hsl(360, 100%, 90%); }
 }
 
 
