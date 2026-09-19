@@ -42,13 +42,16 @@ body {
 .container-foto {
     padding: 1rem;
     /* border-radius: 1000px; */
+
+    .scroller-div {
+        border-radius: 1000px;
+        overflow: hidden;
+        max-width: 14rem;
+        margin: auto;
+    }
 }
 
 
-.scroller-div {
-    border-radius: 1000px;
-    overflow: hidden;
-}
 
 .foto {
     width: 100%;
